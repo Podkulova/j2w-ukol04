@@ -1,4 +1,4 @@
-package cz.czechitas.java2webapps.ukol3;
+package cz.czechitas.java2webapps.ukol4;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,6 +1,6 @@
-package cz.czechitas.java2webapps.ukol3.service;
+package cz.czechitas.java2webapps.ukol4.service;
 
-import cz.czechitas.java2webapps.ukol3.entity.Vizitka;
+import cz.czechitas.java2webapps.ukol4.entity.Vizitka;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -85,5 +85,13 @@ public class VizitkaService {
 
     public Vizitka getById(int id) {
         return seznamVizitek.get(id);
+    }
+
+    public void create(Vizitka vizitka) {
+        seznamVizitek.add(vizitka);
+    }
+
+    public void deleteById(int id) {
+        seznamVizitek.remove(id);
     }
 }
