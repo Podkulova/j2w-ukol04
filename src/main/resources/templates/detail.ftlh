@@ -16,8 +16,10 @@
         <div class="jmeno">${vizitka.jmeno}</div>
         <div class="firma">${vizitka.firma}</div>
         <div class="udaje">
-            <div class="adresa">
+            <div class="ulice">
                 <div>${vizitka.ulice}</div>
+            </div>
+            <div class="obec">
                 <div>${vizitka.obecPsc}</div>
             </div>
             <div class="kontakty">

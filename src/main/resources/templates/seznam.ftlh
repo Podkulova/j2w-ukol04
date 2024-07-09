@@ -23,6 +23,7 @@
                     <div class="adresa">
                         <div>${vizitka.ulice}</div>
                         <div><span>${vizitka.obecPsc}</span></div>
+                        <div><span>${vizitka.getCelaAdresa()}</span></div>
                     </div>
                     <div class="kontakty">
                         [#if vizitka.email ??]
@@ -74,9 +75,10 @@
         </div>
 
         <div class="col-md-3">
-            <label for="given-name" class="form-label">Zip Code</label>
+            <label for="given-name" class="form-label">Zip Code and City</label>
             <input id="given-name" name="obecPsc" class="form-control" type="text"/>
         </div>
+
 
         <div class="col-md-3">
             <label for="given-name" class="form-label">Email</label>
